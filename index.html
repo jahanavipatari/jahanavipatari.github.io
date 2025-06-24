@@ -1,217 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Jahanavi | Data Engineer</title>
-    <meta name="description" content="Portfolio of Jahanavi Patari - Data Engineer specializing in Cloud, ML, and Analytics" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img src="jahanavi.png" alt="Jahanavi Logo" class="header__logo-img" />
-          </div>
-          <span class="header__logo-sub">Jahanavi</span>
-        </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper"><a href="./index.html" class="header__link">Home</a></li>
-            <li class="header__link-wrapper"><a href="#about" class="header__link">About</a></li>
-            <li class="header__link-wrapper"><a href="#projects" class="header__link">Projects</a></li>
-            <li class="header__link-wrapper"><a href="#contact" class="header__link">Contact</a></li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img src="ham-menu.svg" alt="menu" class="header__main-ham-menu" />
-            <img src="ham-menu-close.svg" alt="close menu" class="header__main-ham-menu-close d-none" />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link"><a href="./index.html">Home</a></li>
-            <li class="header__sm-menu-link"><a href="#about">About</a></li>
-            <li class="header__sm-menu-link"><a href="#projects">Projects</a></li>
-            <li class="header__sm-menu-link"><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahanavi | Data Engineer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #4a90e2;
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 0.5rem;
+    }
+    .skills, .projects, .certifications, .contact {
+      margin-bottom: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    .project {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      background: #4a90e2;
+      color: #fff;
+      padding: 1rem;
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👩‍💻 Jahanavi</h1>
+    <p>🎓 Master's in Data Science and Analytics | FAU, Boca Raton, FL</p>
+    <p>🔍 Seeking roles in Data Engineering, Cloud Solutions, AI/ML</p>
+  </header>
 
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">👩‍💻 Hi, I'm Jahanavi</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Data Engineer | Cloud & ML | Florida Atlantic University<br />
-            5+ years experience building data pipelines and ML solutions across AWS, GCP, and Azure.
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://linkedin.com/in/jahanavipatari" target="_blank"><img src="./assets/png/linkedin-ico.png" alt="LinkedIn" class="home-hero__social-icon" /></a>
-        </div>
-        <div class="home-hero__social">
-          <a href="https://github.com/jahanavipatari" target="_blank"><img src="./assets/png/github-ico.png" alt="GitHub" class="home-hero__social-icon" /></a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont"><div class="mouse"></div></div>
-    </section>
+  <section class="about">
+    <h2>🚀 About Me</h2>
+    <p>
+      Passionate Data Engineer with 5+ years of experience in building scalable data pipelines,
+      deploying ML models, and delivering cloud-based solutions. Skilled in Python, SQL, R,
+      cloud platforms (AWS, Azure, GCP), and data analytics.
+    </p>
+  </section>
 
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            Passionate Data Engineer with a focus on cloud computing and machine learning.
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hello! I'm <strong>Jahanavi Patari</strong>, a <strong>Data Engineer</strong> with 5+ years of experience in building scalable data pipelines, analytics platforms, and machine learning solutions. I'm currently pursuing my MS in Data Science and Analytics at Florida Atlantic University.
-              </p>
-              <p class="about__content-details-para">
-                My passion lies in transforming data into actionable insights. I'm seeking full-time roles where I can contribute to data-driven innovation and scalable architectures.
-              </p>
-            </div>
-            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">R</div>
-              <div class="skills__skill">SQL</div>
-              <div class="skills__skill">TensorFlow</div>
-              <div class="skills__skill">Scikit-learn</div>
-              <div class="skills__skill">AWS</div>
-              <div class="skills__skill">GCP</div>
-              <div class="skills__skill">Docker</div>
-              <div class="skills__skill">Tableau</div>
-              <div class="skills__skill">Power BI</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <section class="skills">
+    <h2>🔧 Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, R, SQL, Java, MATLAB</li>
+      <li><strong>Frameworks:</strong> Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch</li>
+      <li><strong>Version Control:</strong> Git, GitHub</li>
+      <li><strong>Visualization:</strong> Power BI, Tableau, Matplotlib, Seaborn</li>
+      <li><strong>Databases:</strong> MySQL, PostgreSQL, Oracle, MongoDB, Snowflake</li>
+      <li><strong>Cloud:</strong> AWS (Lambda, EC2, S3), Azure, GCP</li>
+      <li><strong>Tools:</strong> Docker, Kubernetes, ETL Pipelines, Agile, Jira</li>
+    </ul>
+  </section>
 
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            A selection of projects showcasing my skills in ML, data pipelines, and analytics.
-          </span>
-        </h2>
+  <section class="projects">
+    <h2>📂 Featured Projects</h2>
+    <div class="project">
+      <h3>Morphological Matching Tool</h3>
+      <p>Python GUI with OpenCV & Tkinter to match similar images using morphological ops.</p>
+    </div>
+    <div class="project">
+      <h3>E-Commerce Delivery Prediction</h3>
+      <p>ML model predicting on-time deliveries with 85% accuracy to improve logistics.</p>
+    </div>
+    <div class="project">
+      <h3>Crime Forecasting with LSTM</h3>
+      <p>LSTM neural network for predicting crime patterns from historical data.</p>
+    </div>
+  </section>
 
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Morphological Image Matching" class="projects__row-img" loading="lazy" />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Morphological Image Matching</h3>
-              <p class="projects__row-content-desc">
-                Built a Python GUI using OpenCV for image retrieval based on morphological transformations and similarity metrics.
-              </p>
-              <a href="https://github.com/jahanavipatari/morph-image-matching" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-            </div>
-          </div>
+  <section class="certifications">
+    <h2>📄 Certifications & Publications</h2>
+    <ul>
+      <li>🧪 IBM Data Science Professional Certificate</li>
+      <li>📊 Power BI Data Analyst Associate (PL-300)</li>
+      <li>🤖 Intro to Generative AI with GPT</li>
+      <li>🐍 Python Data Analysis – NPTEL</li>
+      <li>📚 <strong>Publication:</strong> Human Activity Recognition using Self-Attention – SpringerLink, Sept 2023</li>
+    </ul>
+  </section>
 
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img src="./assets/jpeg/project-mockup-example.jpeg" alt="E-Commerce Delivery Prediction" class="projects__row-img" loading="lazy" />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">E-Commerce Delivery Prediction</h3>
-              <p class="projects__row-content-desc">
-                Developed an ML model with 85% accuracy to predict delivery delays using shipment, location, and order behavior data.
-              </p>
-              <a href="https://github.com/jahanavipatari/ecommerce-delivery-ml" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-            </div>
-          </div>
+  <section class="contact">
+    <h2>📞 Contact Me</h2>
+    <p>Email: <a href="mailto:patari.jahanavi026@gmail.com">patari.jahanavi026@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/jahanavipatari" target="_blank">linkedin.com/in/jahanavipatari</a></p>
+    <p>GitHub: <a href="https://github.com/jahanavipatari" target="_blank">github.com/jahanavipatari</a></p>
+  </section>
 
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img src="./assets/jpeg/project-mockup-example.jpeg" alt="Crime Forecasting with LSTM" class="projects__row-img" loading="lazy" />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Crime Forecasting with LSTM</h3>
-              <p class="projects__row-content-desc">
-                Implemented a deep learning model using LSTM to forecast crime trends using public datasets from 2018–2024.
-              </p>
-              <a href="https://github.com/jahanavipatari/crime-lstm" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            Let's connect! I'm always open to discussing projects or opportunities.
-          </span>
-        </h2>
-        <div class="contact__form-container">
-          <form action="#" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email" />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">Submit</button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm"><span>Social</span></h2>
-            <div class="main-footer__social-cont">
-              <a href="https://linkedin.com/in/jahanavipatari" target="_blank"><img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" /></a>
-              <a href="https://github.com/jahanavipatari" target="_blank"><img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" /></a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Jahanavi Patari</h4>
-            <p class="main-footer__short-desc">
-              Data Engineer passionate about transforming data into insights through scalable, cloud-based solutions.
-            </p>
-          </div>
-        </div>
-        <div class="main-footer__lower">
-          &copy; 2025 Jahanavi Patari. All rights reserved.
-        </div>
-      </div>
-    </footer>
-
-    <script src="./index.js"></script>
-  </body>
+  <footer>
+    <p>&copy; 2025 Jahanavi Patari. All Rights Reserved.</p>
+  </footer>
+</body>
 </html>
